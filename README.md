@@ -22,7 +22,6 @@ The dealership has the following features:
 ### Design patterns
 
 Following design patterns were used:
-
 #### Factory
 
 Used in the production of the cars by specifying one of the three types:
