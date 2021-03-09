@@ -42,3 +42,45 @@ For negotiating the price, a client can choose two current strategies: having th
 #### Singleton
 
 This dealership has only one factory so it doesn't need more instances to cope with.
+
+## Project structure
+```bash
+├── JavaGoogle.iml
+├── out
+│   └── production
+│       └── JavaGoogle
+│           ├── Dealership.class
+│           ├── Factory
+│           │   ├── Car.class
+│           │   ├── CarFactory.class
+│           │   ├── ComfortCar.class
+│           │   ├── MuscleCar.class
+│           │   └── SportsCar.class
+│           ├── Main.class
+│           ├── Observer
+│           │   └── Mechanic.class
+│           ├── README.md
+│           └── Strategy
+│               ├── Client.class
+│               ├── Discount.class
+│               ├── RandomDiscount.class
+│               └── WeeklyDiscount.class
+├── README.md
+└── src
+    ├── Dealership.java
+    ├── Factory
+    │   ├── CarFactory.java
+    │   ├── Car.java
+    │   ├── ComfortCar.java
+    │   ├── MuscleCar.java
+    │   └── SportsCar.java
+    ├── Main.java
+    ├── Observer
+    │   └── Mechanic.java
+    └── Strategy
+        ├── Client.java
+        ├── Discount.java
+        ├── RandomDiscount.java
+        └── WeeklyDiscount.java
+
+```
